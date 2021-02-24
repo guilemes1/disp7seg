@@ -10,4 +10,4 @@
 
 ## Esquemático do circuito
 
-![alt]()
+![alt](https://raw.githubusercontent.com/guilemes1/disp7seg/master/Esquem%C3%A1tico_Display.jpg)

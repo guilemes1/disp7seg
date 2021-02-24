@@ -12,15 +12,15 @@
 
 void main(void) 
 {
-    int cont = 0;
+    int cont;
     disp7seg_init();
     
     while(1)
     {
-        disp7seg(cont);
-        delay(1000);
-        cont++;
-        if(cont >= 16)
-            cont = 0;
+        for(cont=0; cont>=16; cont++)
+        {
+            disp7seg(cont);
+            delay(1000);
+        }
     }
 }

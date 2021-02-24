@@ -5,8 +5,7 @@
  * Created on 24 de Fevereiro de 2021, 15:43
  */
 
-#include "config.h"
-#include "delay.h"
+
 #include <xc.h>
 
 char vetor[16] = { 0x3F, 0x06, 0x5B, 0x4F,
@@ -23,6 +22,5 @@ void disp7seg_init(void)
 void disp7seg(int digito)
 {
     PORTD = vetor[digito];
-    delay(1000);
 }
 

@@ -18,6 +18,7 @@ void main(void)
     while(1)
     {
         disp7seg(cont);
+        delay(1000);
         cont++;
         if(cont >= 16)
             cont = 0;

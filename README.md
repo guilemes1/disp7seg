@@ -7,3 +7,7 @@
 * Microcontrolador utilizado: PIC16F887
 
 * Software para esquemático e simulaçao do programa: SIMULIDE
+
+## Esquemático do circuito
+
+![alt]()

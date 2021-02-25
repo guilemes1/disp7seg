@@ -1,6 +1,6 @@
 # Projeto Display 7 segmentos
 
-Projeto desenvolvido para demonstração de contator simples, com contagem de 0 à F em base hexadecimal.
+Projeto desenvolvido para demonstração de contador simples, com contagem de 0 à F em base hexadecimal.
 
 * Método utilizado: Máquina de estados
 

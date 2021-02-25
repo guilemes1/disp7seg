@@ -17,10 +17,18 @@ void main(void)
     
     while(1)
     {
-        for(cont = 0; cont <= 16; cont++)
+        for(cont = 0; cont <= 20; cont++)
         {
-            disp7seg(cont);
-            delay(1000);
+            if(cont >= 0 && cont <= 15)
+            {
+                disp7seg(cont);
+                delay(1000);
+            }
+            else
+            {    
+                PORTD = 0x7B;
+                delay(1000);
+            }  
         }
     }
 }

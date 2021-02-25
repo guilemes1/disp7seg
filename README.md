@@ -10,6 +10,6 @@ Projeto desenvolvido para demonstração de contador simples, com contagem de 0 
 
 * Software para esquemático e simulaçao do programa: SIMULIDE
 
-## Esquemático do circuito
+## Esquemático e simulação do circuito
 
-![alt](https://raw.githubusercontent.com/guilemes1/disp7seg/master/Esquem%C3%A1tico_Display.jpg)
+![alt](https://raw.githubusercontent.com/JoseWRPereira/ddp/master/_posts/tUcPIC/imgP0110/disp7seg0-F.gif)

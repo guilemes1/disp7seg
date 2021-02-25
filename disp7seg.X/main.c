@@ -17,7 +17,7 @@ void main(void)
     
     while(1)
     {
-        for(cont=0; cont>=16; cont++)
+        for(cont = 0; cont <= 16; cont++)
         {
             disp7seg(cont);
             delay(1000);

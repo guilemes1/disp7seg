@@ -21,6 +21,9 @@ void disp7seg_init(void)
 
 void disp7seg(int digito)
 {
-    PORTD = vetor[digito];
+    if(digito >=0 && digito <=15)
+        PORTD = vetor[digito];
+    else
+        PORTD = 0x7B;
 }
 
